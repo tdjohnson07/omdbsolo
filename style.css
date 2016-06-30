@@ -1,0 +1,39 @@
+body{
+  background-color: darkblue;
+}
+
+.wrap{
+  width: 60%;
+  margin: 0 auto;
+  background-color: darkgray;
+}
+header{
+  text-align: center;
+  background-color: darkgray;
+  border-bottom: 1px solid darkblue;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.container ul{
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid darkblue;
+}
+.container h2{
+  text-align: center;
+}
+img:hover {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+img {
+    border-radius: 12px;
+    margin: 0 auto;
+}
